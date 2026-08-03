@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee Registration Form</title>
+</head>
+
+<body>
+
+    <h1>Employee Registration Form</h1>
+
+    <form action="welcome.html" method="get">
+
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label>Employee ID:</label>
+            <input type="text" name="emp_id" required autocomplete="off" />
+            <br><br>
+
+            <label>Full Name:</label>
+            <input type="text" name="emp_name" required autocomplete="off" />
+            <br><br>
+
+            <label>Email:</label>
+            <input type="email" name="emp_email" multiple />
+            <br><br>
+
+            <label>Phone Number:</label>
+            <input type="tel" name="emp_phone" />
+            <br><br>
+
+            <label>Age:</label>
+            <input type="number" name="emp_age" />
+            <br><br>
+
+            <label>Gender:</label>
+            <input type="radio" name="emp_gender" value="Male" />
+            <label>Male</label>
+
+            <input type="radio" name="emp_gender" value="Female" />
+            <label>Female</label>
+
+            <input type="radio" name="emp_gender" value="Other" />
+            <label>Other</label>
+
+            <br><br>
+
+            <label>Address:</label>
+            <textarea rows="5" cols="20"></textarea>
+
+            <br><br>
+
+            <label>Languages Known:</label>
+            <input type="checkbox" name="language[]" value="English" />English
+            <input type="checkbox" name="language[]" value="Hindi" />Hindi
+            <input type="checkbox" name="language[]" value="Gujarati" />Gujarati
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Job Details</legend>
+
+            <label>Department:</label>
+
+            <select name="emp_department">
+
+                <optgroup label="Technical">
+                    <option value="IT">IT</option>
+                    <option value="Software">Software</option>
+                    <option value="Support">Support</option>
+                </optgroup>
+
+                <optgroup label="Non Technical">
+                    <option value="HR">HR</option>
+                    <option value="Finance">Finance</option>
+                    <option value="Marketing">Marketing</option>
+                    <option value="Sales">Sales</option>
+                </optgroup>
+
+            </select>
+
+            <br><br>
+
+            <label>Employment Type:</label>
+
+            <select name="emp_type">
+
+                <option value="Full Time">Full Time</option>
+                <option value="Part Time">Part Time</option>
+                <option value="Intern">Intern</option>
+                <option value="Contract">Contract</option>
+
+            </select>
+
+            <br><br>
+
+            <label>Experience:</label>
+            <input type="range" min="0" max="30" />
+            <br><br>
+
+            <label>Search Skills:</label>
+            <input type="search" />
+            <br><br>
+
+            <label>LinkedIn Profile:</label>
+            <input type="url" pattern="https?://.+" />
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Additional Information</legend>
+
+            <label>Upload Resume:</label>
+            <input type="file" name="resume" multiple />
+            <br>
+
+            <datalist id="cities">
+                <option value="Rajkot">Rajkot</option>
+                <option value="Ahmedabad">Ahmedabad</option>
+                <option value="Surat">Surat</option>
+                <option value="Vadodara">Vadodara</option>
+                <option value="Mumbai">Mumbai</option>
+            </datalist>
+
+            <br><br>
+
+            <label>Agree to Company Policies:</label>
+            <input type="checkbox" name="agree" value="Yes" />
+            <label>I Agree</label>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Date & Time Information</legend>
+
+            <label>Joining Date:</label>
+            <input type="date" name="joining_date" />
+            <br><br>
+
+            <label>Joining Month:</label>
+            <input type="month" />
+            <br><br>
+
+            <label>Joining Week:</label>
+            <input type="week" />
+            <br><br>
+
+            <label>Date & Time of Registration:</label>
+            <input type="datetime-local" />
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Form Controls</legend>
+
+            <button>Click Me</button>
+
+            <input type="image" src="image3.png" alt="Register" height="60" width="60" />
+
+            <br><br>
+
+            <input type="submit" />
+
+            <br><br>
+
+            <input type="reset" />
+
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>

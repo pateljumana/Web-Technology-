@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Reg Form</title>
+</head>
+
+<body>
+    <h1>Student Registration Form</h1>
+    <form action="welcome.html" method="get">
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            Address:
+            <textarea rows="5" cols="10"></textarea>
+            <br>
+            <br>
+            Hobbies:
+            <input type="checkbox" name="hobbies[]" value="Cricket" />Cricket
+            <input type="checkbox" name="hobbies[]" value="Hockey" />Hockey
+            <input type="checkbox" name="hobbies[]" value="Nothing" />Nothing
+            <br>
+            <br>
+
+            <label>Full Name:</label>
+            <input type="text" name="reg_name" required autocomplete="off" />
+            <br />
+            <br />
+
+            <label>Email:</label>
+            <input type="email" multiple name="reg_email" />
+            <br />
+            <br />
+
+            <label>Password:</label>
+            <input type="password" name="reg_password" />
+            <br />
+            <br />
+
+            <label>Phone number:</label>
+            <input type="tel" name="reg_number" />
+            <br />
+            <br />
+
+            <label>Age:</label>
+            <input type="number" name="reg_age" />
+            <br />
+            <br />
+
+            <label>Gender:</label>
+            <input type="radio" name="reg_gender" value="Male"/><label>Male</label>
+            <input type="radio" name="reg_gender" value="Female" /><label>Female</label>
+            <br />
+            <br />
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferences & Extras</legend>
+
+            <label>Upload Profile Picture:</label>
+            <input type="file" name="reg_file" multiple />
+            <br />
+            <br />
+
+            <label>color:</label>
+            <input type="color" />
+            <br />
+            <br />
+
+            <label>Search for Course:</label>
+            <input type="search" />
+            <br />
+            <br />
+
+            <label>Course Interest Range:</label>
+            <input type="range" />
+            <br />
+            <br />
+
+            <label>Personal Website:</label>
+            <input type="url" pattern="https?://.+" />
+            <br />
+            <br />
+
+            <label>Course Type:</label>
+            <select name="reg_dept" size="1">
+                <optgroup label="engg">
+                    <option value="CE">CE</option>
+                    <option value="EE" selected>EE</option>
+                    <option value="ME">ME</option>
+                    <option value="CIV">CIV</option>
+                </optgroup>
+                <optgroup label="Management">
+                    <option value="BBA">BBA</option>
+                    <option value="MBA">MBA</option>
+                </optgroup>
+            </select>
+            <br />
+            <br />
+
+            <label>Preferred Country:</label>
+            <input list="countries" name="reg_country" />
+            <datalist id="countries">
+                <option value="USA">USA</option>
+                <option>UK</option>
+                <option>India</option>
+                <option>Japan</option>
+            </datalist>
+
+            <br />
+            <br />
+            <label>Agree to Terms:</label>
+            <input type="checkbox" name="reg_agree" value="I agree" /><label>I agree</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Date & Time Info</legend>
+
+            <label>Select Date of Birth: </label>
+            <input type="date" name="reg_date" />
+            <br />
+            <br />
+
+            <label>Select Time: </label>
+            <input type="time" />
+            <br />
+            <br />
+
+            <label>Select month: </label>
+            <input type="month" />
+            <br />
+            <br />
+
+            <label>Select week: </label>
+            <input type="week" />
+            <br />
+            <br />
+
+            <label>Select date and time: </label>
+            <input type="datetime-local" />
+            <br />
+            <br />
+        </fieldset>
+
+        <fieldset>
+            <legend>Form Controls</legend>
+
+            <button>Click Me</button>
+            <input type="image" src="butterfly.png" alt="Register Now" height="50" width="50" />
+            <br /><br />
+
+            <input type="submit" />
+            <br /><br />
+
+            <input type="reset" />
+            <br /><br />
+        </fieldset>
+    </form>
+</body>
+</html>
