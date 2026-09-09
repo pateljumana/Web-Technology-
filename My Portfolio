@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Jumana Patel | Personal CV</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="MyStyle.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="header-content">
+
+            <div class="header-text">
+                <p class="tagline">COMPUTER ENGINEERING STUDENT</p>
+
+                <h1>
+                    Jumana<br>Patel
+                </h1>
+
+                <p class="subtitle">
+                    Learning. Building. Improving.
+                </p>
+            </div>
+
+            <div class="header-image">
+                <img src="image_..png" alt="Jumana Patel">
+            </div>
+
+        </div>
+    </header>
+
+
+    <!-- NAVBAR -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#learning">Learning</a>
+    </nav>
+
+
+    <!-- CONTACT -->
+    <div class="contact">
+        <span>📍 Rajkot, Gujarat</span>
+        <span>📧 yourmail@gmail.com</span>
+        <span>📱 +91 XXXXX XXXXX</span>
+
+        <span>
+            <a href="https://linkedin.com/" target="_blank">
+                LinkedIn
+            </a>
+        </span>
+
+        <span>
+            <a href="https://github.com/" target="_blank"> 
+                GitHub 
+            </a> 
+        </span> 
+    </div> 
+ 
+ 
+    <!-- ABOUT --> 
+    <section id="about" class="about"> 
+ 
+        <h2>ABOUT ME</h2> 
+ 
+        <p> 
+            I am a Computer Engineering student who enjoys learning 
+            technology by building practical projects. I am interested 
+            in Java, databases, web development and data structures. 
+            I like understanding how different parts of a software 
+            system work together rather than only learning syntax. 
+        </p> 
+ 
+    </section> 
+ 
+ 
+    <!-- EDUCATION --> 
+    <section id="education"> 
+ 
+        <h2>EDUCATION</h2> 
+ 
+        <div class="education-box"> 
+ 
+            <p class="year"> 
+                2025 — PRESENT 
+            </p> 
+ 
+            <h3> 
+                B.Tech in Computer Engineering 
+            </h3> 
+ 
+            <p class="university"> 
+                Marwadi University · Rajkot 
+            </p> 
+ 
+            <p> 
+                Studying programming, Object-Oriented Programming, 
+                Database Management Systems, Data Structures, 
+                Web Technologies and software development. 
+            </p> 
+ 
+        </div> 
+ 
+    </section> 
+ 
+ 
+    <!-- PROJECTS --> 
+    <section id="projects"> 
+ 
+        <h2>PROJECTS</h2> 
+ 
+        <div class="projects"> 
+ 
+            <div class="project"> 
+ 
+                <p class="project-number"> 
+                    01 / BACKEND 
+                </p> 
+ 
+                <h3> 
+                    Campus Hub 
+                </h3> 
+ 
+                <p class="technology"> 
+                    Java · JDBC · MySQL 
+                </p> 
+ 
+                <p> 
+                    A campus collaboration system where students 
+                    can share ideas, work on projects and interact 
+                    with mentors. The project uses a relational 
+                    database and CRUD operations. 
+                </p> 
+ 
+            </div> 
+ 
+ 
+            <div class="project"> 
+ 
+                <p class="project-number"> 
+                    02 / WEB 
+                </p> 
+ 
+                <h3> 
+                    CaseVault 
+                </h3> 
+ 
+                <p class="technology"> 
+                    HTML · CSS · JavaScript 
+                </p> 
+ 
+                <p> 
+                    A crime investigation management interface 
+                    designed to organize cases and investigation 
+                    information through a structured frontend. 
+                </p> 
+ 
+            </div> 
+ 
+ 
+            <div class="project"> 
+ 
+                <p class="project-number"> 
+                    03 / JAVA 
+                </p> 
+ 
+                <h3> 
+                    Expense Tracker 
+                </h3> 
+ 
+                <p class="technology"> 
+                    Java · OOP 
+                </p> 
+ 
+                <p> 
+                    An academic Java project developed to apply 
+                    object-oriented programming concepts to 
+                    everyday expense management. 
+                </p> 
+ 
+            </div> 
+ 
+        </div> 
+ 
+    </section> 
+ 
+ 
+    <!-- SKILLS --> 
+    <section id="skills"> 
+ 
+        <h2>SKILLS</h2> 
+ 
+        <div class="skills"> 
+ 
+            <span>C</span> 
+            <span>C++</span> 
+            <span>Java</span> 
+            <span>HTML</span> 
+            <span>CSS</span> 
+            <span>JavaScript</span> 
+            <span>MySQL</span> 
+            <span>JDBC</span> 
+            <span>DBMS</span> 
+            <span>Data Structures</span> 
+ 
+        </div> 
+ 
+    </section> 
+ 
+ 
+    <!-- CURRENTLY LEARNING --> 
+    <section id="learning"> 
+ 
+        <h2>CURRENTLY LEARNING</h2> 
+ 
+        <div class="learning-list"> 
+ 
+            <div class="learning-item"> 
+ 
+                <h3> 
+                    Data Structures & Algorithms 
+                </h3> 
+ 
+                <p> 
+                    Improving problem-solving skills using C++. 
+                </p> 
+ 
+            </div> 
+ 
+ 
+            <div class="learning-item"> 
+ 
+                <h3> 
+                    Advanced Java 
+                </h3> 
+ 
+                <p> 
+                    Learning JDBC, Servlets and server-side 
+                    Java development. 
+                </p> 
+ 
+            </div> 
+ 
+ 
+            <div class="learning-item"> 
+ 
+                <h3> 
+                    Web Development 
+                </h3> 
+ 
+                <p> 
+                    Strengthening HTML, CSS and JavaScript 
+                    through practical projects. 
+                </p> 
+ 
+            </div> 
+ 
+        </div> 
+ 
+    </section> 
+ 
+ 
+    <!-- FOOTER --> 
+    <footer> 
+ 
+        <p> 
+            JUMANA PATEL 
+        </p> 
+ 
+        <p> 
+            CURIOUS · BUILDING · LEARNING 
+        </p> 
+ 
+    </footer> 
+ 
+</body> 
+</html>
