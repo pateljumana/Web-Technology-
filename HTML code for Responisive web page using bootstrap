@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Marwadi University</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: rgba(128, 128, 128, 0.468);
+            color: #27272A;
+        }
+
+        nav a {
+            transition: 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #D4AF37 !important;
+            text-decoration: underline !important;
+        }
+
+        section {
+            transition: 0.3s ease;
+        }
+
+        section:hover {
+            transform: translateY(-3px);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="bg-dark text-white text-center py-5 mb-4">
+
+        <h1 class="display-5">Marwadi University</h1>
+
+        <h2 class="fs-3">Department of Computer Engineering</h2>
+
+        <!-- Navigation -->
+        <nav class="bg-secondary py-3 mt-4">
+
+            <a href="#Vision"
+               class="text-white text-decoration-none px-3 mx-1">
+                Vision
+            </a>
+
+            <a href="#Mission"
+               class="text-white text-decoration-none px-3 mx-1">
+                Mission
+            </a>
+
+            <a href="#Program-specific-outcomes"
+               class="text-white text-decoration-none px-3 mx-1">
+                Program Specific Outcomes
+            </a>
+
+            <a href="#Course-Offered"
+               class="text-white text-decoration-none px-3 mx-1">
+                Courses Offered
+            </a>
+
+            <a href="#Top-Recruiters"
+               class="text-white text-decoration-none px-3 mx-1">
+                Top Recruiters
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- Vision -->
+    <section id="Vision"
+        class="bg-white p-4 mx-3 my-3 rounded-3 shadow">
+
+        <h3 class="fs-4">Vision</h3>
+
+        <p class="fs-5">
+            To impart quality technical education through research, innovation,
+            and teamwork for creating professionally superior and ethically
+            strong manpower that meets the global challenges of engineering
+            industries and research organizations.
+        </p>
+
+    </section>
+
+
+    <!-- Mission -->
+    <section id="Mission"
+        class="bg-white p-4 mx-3 my-3 rounded-3 shadow">
+
+        <h3 class="fs-4">Mission</h3>
+
+        <ul class="fs-5">
+
+            <li>
+                Maintain state-of-the-art ICT enabled teaching and learning methodologies.
+            </li>
+
+            <li>
+                Enable graduates to become digital age literates, innovators,
+                and professionals.
+            </li>
+
+            <li>
+                Provide skills, knowledge, and attitudes for success as engineers,
+                leaders, and entrepreneurs.
+            </li>
+
+            <li>
+                Prepare graduates for lifelong learning and career challenges.
+            </li>
+
+        </ul>
+
+    </section>
+
+
+    <!-- PSO -->
+    <section id="Program-specific-outcomes"
+        class="bg-white p-4 mx-3 my-3 rounded-3 shadow">
+
+        <h3 class="fs-4">
+            Program Specific Outcomes (PSOs)
+        </h3>
+
+        <ol class="fs-5">
+
+            <li>
+                Apply knowledge and competence in the design and development
+                of computer-based systems addressing industrial and social needs.
+            </li>
+
+            <li>
+                Adapt to emerging technological advancements including
+                cybersecurity, AR/VR, and IoT.
+            </li>
+
+        </ol>
+
+    </section>
+
+
+    <!-- Courses -->
+    <section id="Course-Offered"
+        class="bg-white p-4 mx-3 my-3 rounded-3 shadow">
+
+        <h3 class="fs-4">Courses Offered</h3>
+
+        <ul class="fs-5">
+
+            <li>B.Tech in Computer Engineering</li>
+
+            <li>B.Tech in Cyber Security</li>
+
+            <li>M.Tech in Computer Engineering</li>
+
+            <li>Ph.D. in Computer Science & Engineering</li>
+
+        </ul>
+
+    </section>
+
+
+    <!-- Recruiters -->
+    <section id="Top-Recruiters"
+        class="bg-white p-4 mx-3 my-3 rounded-3 shadow">
+
+        <h3 class="fs-4">Top Recruiters</h3>
+
+        <ul class="fs-5">
+
+            <li>TCS</li>
+
+            <li>Infosys</li>
+
+            <li>Capgemini</li>
+
+            <li>Wipro</li>
+
+            <li>LTIMindtree</li>
+
+            <li>Cognizant</li>
+
+            <li>Reliance Industries</li>
+
+        </ul>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center p-3 mt-4">
+
+        <p class="fs-6">
+            &copy; 2026 Marwadi University. All Rights Reserved.
+        </p>
+
+        <p class="fs-6">
+            Department of Computer Engineering | Rajkot, Gujarat
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
